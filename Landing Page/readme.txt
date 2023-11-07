@@ -1,2 +1,3 @@
-Link to the Certification with a drop down menu to the specified Project: https://www.freecodecamp.org/certification/AndreQuiroa401/responsive-web-design 
-<img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Landing%20Page/Screenshot%202023-11-07%20134217.png" />
+Link to the Certification with a drop down menu to the specified Project: https://www.freecodecamp.org/certification/AndreQuiroa401/responsive-web-design
+
+<p><img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Landing%20Page/Screenshot%202023-11-07%20134217.png"></img></p>
