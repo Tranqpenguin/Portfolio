@@ -10,7 +10,11 @@ I am a Software Developer and i am very eager to start my coding journey :D! </b
 <img src="https://media.giphy.com/media/4Zgy9QqzWU8C3ugvCa/giphy.gif" width="300">.
   
 </p>  
-
+---
+Certifications:
+<img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Certifications/Screenshot%202023-11-07%20144051.png" />
+<img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Certifications/Screenshot%202023-11-07%20162454.png" />
+<img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Certifications/Screenshot%202023-11-07%20203320.png" />
 ---
 ### 😊 &nbsp;Languages and Tools:
 
