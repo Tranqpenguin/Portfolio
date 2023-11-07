@@ -2,7 +2,6 @@ Link to the Certification with a drop down menu to the specified Project: https:
 
 
 
-![img]([https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Landing%20Page/Screenshot%202023-11-07%20134217.png](https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/HTML-CSS%20Work/Landing%20Page/Screenshot%202023-11-07%20134217.png)https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/HTML-CSS%20Work/Landing%20Page/Screenshot%202023-11-07%20134217.png)
+![img](https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/HTML-CSS%20Work/Landing%20Page/Screenshot%202023-11-07%20134217.png)
 
-![img]([https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Landing%20Page/Screenshot%202023-11-07%20144051.png](https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/HTML-CSS%20Work/Landing%20Page/Screenshot%202023-11-07%20144051.png)https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/HTML-CSS%20Work/Landing%20Page/Screenshot%202023-11-07%20144051.png)
-
+![img](https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/HTML-CSS%20Work/Landing%20Page/Screenshot%202023-11-07%20144051.png)
