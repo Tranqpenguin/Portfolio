@@ -1,16 +1,18 @@
 
 ### Hi There, Here are some of my works and projects.
 <p align="center"><img src="https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif" width="300"/></p>
-<p align="center"><img src="https://media.giphy.com/media/R6Hkv8v1WAkwvvCdjI/giphy.gif" width="300"/></p>
 
 ### About Me
 
 I am a Software Developer and i am very eager to start my coding journey :D! </br>
 <p align="center">
-<img src="https://media.giphy.com/media/4Zgy9QqzWU8C3ugvCa/giphy.gif" width="300">.
   
 </p>  
-
+---
+Certifications:
+<img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Certifications/Screenshot%202023-11-07%20144051.png" />
+<img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Certifications/Screenshot%202023-11-07%20162454.png" />
+<img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Certifications/Screenshot%202023-11-07%20203320.png" />
 ---
 ### 😊 &nbsp;Languages and Tools:
 
@@ -24,6 +26,10 @@ I am a Software Developer and i am very eager to start my coding journey :D! </b
 <img src="https://github.com/devicons/devicon/blob/master/icons/markdown/markdown-original.svg" title="Markdown" alt="Markdown" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-plain-wordmark.svg" title="Ubuntu" alt="Ubuntu" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="Linux" alt="Linux" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" title="Linux" alt="Linux" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="Linux" alt="Linux" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" title="Linux" alt="Linux" width="40" height="40"/>&nbsp;  
 </p>
 
 ---

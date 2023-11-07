@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Andre Quiroa</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_probably_don't_know"
+            >What you probably don't know</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Early_Life"
+            >Early Life</a
+          >
+        </li>
+        <li><a class="nav-link" href="#College">College</a></li>
+        <li><a class="nav-link" href="#After_College">After College</a></li>
+        <li>
+          <a class="nav-link" href="#Goals"
+            >Goals</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            I have graduated with my Bachelors degree majoring in Computer science from the University of Rhode Island. I love learning new technologies and improving old ones. I will be a good addition to any professional environment that I am allowed to work in. I am a team player and a hard worker. 
+          </p>
+
+        </article>
+      </section>
+      <section class="main-section" id="What_you_probably_don't_know">
+        <header>What you probably don't know</header>
+        <article>
+          <p>This is a small summary of how I am as a worker:</p>
+          <p>A good worker is someone who demonstrates a strong work ethic, dedication, and professionalism in their job. I am reliable, punctual, and take pride in my work. I am not only proficient in my tasks but also continually seek to improve my skills and knowledge. 
+            <p>I am proactive and take initiative, often going above and beyond my assigned duties to contribute positively to the workplace. Effective communication, both listening and expressing ideas clearly, is a hallmark of my work, enabling me to collaborate well with colleagues and superiors.</p>
+<p> Additionally, I am adaptable and open to feedback, using it constructively to enhance my performance. A good worker is also respectful of colleagues, clients, and superiors, fostering a positive and inclusive work environment. Finally, I exhibit a positive attitude, even in challenging situations, inspiring others with my optimism and determination.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Early_Life">
+        <header>Early Life</header>
+        <article>
+          <p>
+            I was born and raised in Newport Rhode Island USA, I am of Guatemalan descent. I am the second oldest of five which consist of two brothers and two sisters. From an early point of my life I learned the valuable lesson that I wanted something I was going to need to work for by my own means to get it. Whether being a material thing like a gaming console or a new bike or getting good test scores to be placed in higher classes in school. I value my upbringing in public school because I was able to see so many different ways of life and this allowed me to learn assimilation, sympathy, and compassion at a very young age. I had a huge interest in video games and computer technology which led me to building my own computer and writing my own basic games in highschool.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="College">
+        <header>College</header>
+        <p>
+          I first went to the community college of rhode island for my associates degree with a focus in programming. Then I transferred to the University of Rhode Island to obtain my Bachelors in Computer Science. I learned many different coding skills, concepts, and algorithms. 
+        </p>
+      </section>
+      <section class="main-section" id="After_College">
+        <header>After College</header>
+        <p>
+          I have many projects and programs to showcase my coding abilities. I am currently looking for a web developer position using Javascript/ typescript with react and angular.
+          </p>
+          <ol>
+          <li><h3>Hello World</h3></li> 
+          <code>#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+</code>
+<li><h3>Bubble sort</h3><li>
+<code>void bubbleSort(int arr[], int n) {
+    for (int i = 0; i < n - 1; ++i) {
+        for (int j = 0; j < n - i - 1; ++j) {
+            if (arr[j] > arr[j + 1]) {
+                // Swap arr[j] and arr[j+1]
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
+</code>
+<li><h3>Selection Sort</h3></li>
+<code>void selectionSort(int arr[], int n) {
+    for (int i = 0; i < n - 1; ++i) {
+        int minIndex = i;
+        for (int j = i + 1; j < n; ++j) {
+            if (arr[j] < arr[minIndex]) {
+                minIndex = j;
+            }
+        }
+        // Swap the found minimum element with the first element
+        int temp = arr[i];
+        arr[i] = arr[minIndex];
+        arr[minIndex] = temp;
+    }
+}
+</code>
+<li><h3>Insertion</h3></li>
+<code>void insertionSort(int arr[], int n) {
+    for (int i = 1; i < n; ++i) {
+        int key = arr[i];
+        int j = i - 1;
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            --j;
+        }
+        arr[j + 1] = key;
+    }
+}
+</code>
+<li><h3>Merge Sort</h3></li>
+<code>void merge(int arr[], int left, int mid, int right) {
+    int n1 = mid - left + 1;
+    int n2 = right - mid;
+
+    int L[n1], R[n2];
+
+    for (int i = 0; i < n1; i++)
+        L[i] = arr[left + i];
+    for (int j = 0; j < n2; j++)
+        R[j] = arr[mid + 1 + j];
+
+    int i = 0, j = 0;
+    int k = left;
+    while (i < n1 && j < n2) {
+        if (L[i] <= R[j]) {
+            arr[k] = L[i];
+            i++;
+        } else {
+            arr[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+
+    while (i < n1) {
+        arr[k] = L[i];
+        i++;
+        k++;
+    }
+
+    while (j < n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
+    }
+}
+
+void mergeSort(int arr[], int left, int right) {
+    if (left < right) {
+        int mid = left + (right - left) / 2;
+        mergeSort(arr, left, mid);
+        mergeSort(arr, mid + 1, right);
+        merge(arr, left, mid, right);
+    }
+}
+</code>
+<li><h3>Quick Sort</h3></li>
+<code>int partition(int arr[], int low, int high) {
+    int pivot = arr[high];
+    int i = low - 1;
+    for (int j = low; j <= high - 1; j++) {
+        if (arr[j] < pivot) {
+            i++;
+            // Swap arr[i] and arr[j]
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+    }
+    // Swap arr[i + 1] and arr[high] (or pivot)
+    int temp = arr[i + 1];
+    arr[i + 1] = arr[high];
+    arr[high] = temp;
+    return i + 1;
+}
+
+void quickSort(int arr[], int low, int high) {
+    if (low < high) {
+        int pi = partition(arr, low, high);
+        quickSort(arr, low, pi - 1);
+        quickSort(arr, pi + 1, high);
+    }
+}
+</code>
+</ol>
+      </section>
+      <section class="main-section" id="Goals">
+        <header>Goals</header>
+        <p>
+              <ul>
+                <li>Expand Technical Skills: Continuously learn and improve programming languages, frameworks, and tools relevant to web development, such as JavaScript, HTML, CSS, and popular libraries like React or Angular.</li>
+
+    <li>Build a Strong Portfolio: Create a diverse and impressive portfolio showcasing various projects. This demonstrates expertise and creativity to potential employers.<li>
+
+    <li>Practice Problem-Solving: Regularly engage in coding challenges and algorithm problems to enhance problem-solving skills, often assessed during technical interviews.</li>
+
+    <li>Understand User Experience (UX): Gain understanding of UX principles and ensure that websites or applications developed are user-friendly, accessible, and intuitive.</li>
+
+    <li>Version Control Proficiency: Master version control systems like Git. Understanding branches, commits, and pull requests is crucial when collaborating with other developers.</li>
+
+    <li>Responsive Design Skills: Learn responsive web design techniques to ensure websites look and function well on different devices and screen sizes.</li>
+
+    <li>Collaboration and Teamwork: Practice working in a team environment, including communication skills, collaboration tools, and understanding of agile methodologies.</li>
+
+    <li>Familiarity with Web Security: Understand common security practices and vulnerabilities to develop secure applications and protect user data.</li>
+
+    <li>Improve Debugging Skills: Enhance the ability to troubleshoot and debug code effectively, which is essential for maintaining and improving existing projects.</li>
+
+    <li>Networking and Building Connections: Attend web development meetups, conferences, and online communities to network with other professionals, learn about industry trends, and potentially find job opportunities.</li>
+
+    <li>Soft Skills Development: Work on soft skills such as time management, problem-solving, and effective communication, which are vital in any professional setting.</li>
+
+    <li>Stay Updated with Industry Trends: Keep up-to-date with the latest technologies, trends, and best practices in web development through blogs, podcasts, and online courses.</li>
+
+    <li>Contributions to Open Source: Contribute to open-source projects on platforms like GitHub. This not only helps the community but also demonstrates expertise to potential employers.</li>
+
+    <li>Prepare for Interviews: Practice common technical interview questions, behavioral questions, and whiteboard coding to improve performance during job interviews.</li>
+
+   <li> Continuous Feedback and Improvement: Seek feedback from peers or mentors to identify areas of improvement and actively work on enhancing skills and knowledge.</li>
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
