@@ -9,9 +9,14 @@ I am a Software Developer and i am very eager to start my coding journey :D! </b
   
 </p>  
 ---
-Certifications:
+<h2>Certifications:</h2>
+<p>Responsive Web Design certification Link: https://www.freecodecamp.org/certification/AndreQuiroa401/responsive-web-design </p>
 <img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Certifications/Screenshot%202023-11-07%20144051.png" />
+
+<p>Front End Development Libraries Link: https://www.freecodecamp.org/certification/AndreQuiroa401/front-end-development-libraries</p>
 <img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Certifications/Screenshot%202023-11-07%20162454.png" />
+
+<p>JavaScript Algorithms and Data Structures Link: https://www.freecodecamp.org/certification/AndreQuiroa401/javascript-algorithms-and-data-structures</p>
 <img src="https://raw.githubusercontent.com/Tranqpenguin/Portfolio/working/Certifications/Screenshot%202023-11-07%20203320.png" />
 ---
 ### 😊 &nbsp;Languages and Tools:
